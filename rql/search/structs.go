@@ -127,6 +127,7 @@ type NetworkResponse struct {
 type NetworkData struct {
 	Items []NetworkItem `json:"items"`
 }
+
 type NetworkItem struct {
 	Account             string `json:"account"`
 	RegionId            string `json:"regionId"`
