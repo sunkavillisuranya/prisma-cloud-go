@@ -115,12 +115,12 @@ type NetworkRequest struct {
 }
 
 type NetworkResponse struct {
-	GroupBy     []string `json:"groupBy"`
-	Id          string   `json:"id"`
-	CloudType   string   `json:"cloudType"`
-	Name        string   `json:"name"`
-	Description string   `json:"description"`
-	SearchType  string   `json:"searchType"`
+	GroupBy     []string    `json:"groupBy"`
+	Id          string      `json:"id"`
+	CloudType   string      `json:"cloudType"`
+	Name        string      `json:"name"`
+	Description string      `json:"description"`
+	SearchType  string      `json:"searchType"`
 	Data        NetworkData `json:"data"`
 }
 
@@ -129,12 +129,12 @@ type NetworkData struct {
 }
 
 type NetworkItem struct {
-	Account             string `json:"account"`
-	RegionId            string `json:"regionId"`
-	AccountName         string `json:"accountName"`
-	Ip                  string `json:"ip"`
-	Name                string `json:"name"`
-	StateId             int    `json:"stateId"`
-	StateName           string `json:"stateName"`
-	Source              string `json:"source"`
+	Account     string `json:"account"`
+	RegionId    string `json:"regionId"`
+	AccountName string `json:"accountName"`
+	Ip          string `json:"ip"`
+	Name        string `json:"name"`
+	StateId     int    `json:"stateId"`
+	StateName   string `json:"stateName"`
+	Source      string `json:"source"`
 }
