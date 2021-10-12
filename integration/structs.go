@@ -71,21 +71,21 @@ type IntegrationConfig struct {
 	// AuthToken
 
 	//tenable
-	AccessKey   string `json:"accessKey,omitempty"`
+	AccessKey string `json:"accessKey,omitempty"`
 	//SecretKey
 
 	//Cortex/demisto
-	ApiKey     string  `json:"apiKey,omitempty"`
+	ApiKey string `json:"apiKey,omitempty"`
 
 	//okta
-	Domain     string  `json:"domain,omitempty"`
-	ApiToken   string  `json:"apiToken,omitempty"`
+	Domain   string `json:"domain,omitempty"`
+	ApiToken string `json:"apiToken,omitempty"`
 
 	//snowflake
-	UserName   string  `json:"username,omitempty"`
-	PipeName   string  `json:"pipename,omitempty"`
-	PrivateKey string  `json:"privateKey,omitempty"`
-	PassPhrase string  `json:"passphrase,omitempty"`
+	UserName             string `json:"username,omitempty"`
+	PipeName             string `json:"pipename,omitempty"`
+	PrivateKey           string `json:"privateKey,omitempty"`
+	PassPhrase           string `json:"passphrase,omitempty"`
 	StagingIntegrationID string `json:"stagingIntegrationId,omitempty"`
 	//RollUpInterval
 
